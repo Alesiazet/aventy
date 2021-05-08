@@ -30,7 +30,7 @@
     						}
 						}
 					}
-				}	
+				}
 			}
 			.sticky-nav-white {
 				background-color: $white !important;
@@ -40,7 +40,7 @@
 							color: $tundora !important;
 						}
 					}
-				}				
+				}
 			}
 			.reveal-menu-home {
 				background-color: transparent;
@@ -67,7 +67,7 @@
 					  	margin: 0 auto;
 					  	width: 97%;
 					}
-				  	
+
 				}
 			}
 			.reveal-menu-blog {
@@ -84,7 +84,7 @@
 					  	margin: 0 auto;
 					  	width: 97%;
 					}
-				  	
+
 				}
 				ul.nav.navbar-nav {
 
@@ -93,12 +93,12 @@
 							color: $tundora !important;
 						}
 					}
-				}	
+				}
 			}
 			.navbar.navbar-default {
 				padding: 25px 0;
 				border-bottom: 0;
-				
+
 				.navbar-toggle {
 					@media only screen and (max-width: 767px) {
 						border-color: $shamrock;
@@ -127,8 +127,8 @@
 						margin-top: 15px;
 						text-align: center;
 					}
-				}	
-				
+				}
+
 				.navbar-collapse {
 					@media only screen and (max-width: 767px) {
 					  	background: $white;
@@ -180,7 +180,7 @@
 								letter-spacing: 1px;
 								@media only screen and (min-width: 991px) and (max-width: 1200px) {
 	    							font-size: 13px;
-	    						}								
+	    						}
 	    						&:focus,
 								&:hover {
 									&:before {
@@ -213,13 +213,13 @@
 								  -moz-transform-origin: right top 0;
 								  -o-transform-origin: right top 0;
 								  -ms-transform-origin: right top 0;
-								  transition: transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s, 
+								  transition: transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s,
 								  -webkit-transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
 								  -moz-transition: transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
 								  -o-transition: transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
 								  -ms-transition: transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
 								  width: 100%;
-								}					
+								}
 							}
 						}
 						li.active {
