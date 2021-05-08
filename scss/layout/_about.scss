@@ -1,0 +1,87 @@
+/*====================== */
+/*         About          */
+/* ====================== */
+
+#mt_about {
+	padding: 100px 0 0 0;
+	background: $alabaster;
+	position: relative;
+	@media only screen and (min-width: 990px) and (max-width: 1200px) {
+		padding: 100px 0 75px;
+	}
+	@media only screen and (max-width:768px) {
+		padding-top: 50px;
+	}
+	.col-sm-6 {
+		@media only screen and (min-width:768px) and (max-width: 991px) {
+			width: 100%;
+		}
+	}
+	.about_sec_img {
+		@media only screen and (min-width:991px) and (max-width: 1200px) {
+			position: static;
+		}
+		.mt_about_img {
+			@media only screen and (min-width:991px) and (max-width: 1200px) {
+				bottom: 0;
+			  	position: absolute;
+			  	width: 47%;
+			}
+		  
+		}
+	}
+	.about_services {
+		@media only screen and (min-width:768px) and (max-width: 991px) {
+			margin-bottom: 30px;
+		}
+		@media only screen and (max-width:768px) {
+			margin-bottom: 40px;
+		}
+		.col-sm-6 {
+		  padding-left: 0;
+		}
+		h2 {
+			@media only screen and (max-width: 991px) {
+				font-size: 22px;
+			}
+			@media only screen and (max-width: 480px) {
+				font-size: 18px;
+			}
+			span {
+	            padding-top: 0;
+	        }
+		}
+		i {
+			font-size: 50px;
+			color: $shamrock;
+			margin-bottom: 24px;
+		}
+		h5 {
+			margin-bottom: 15px;
+    		margin-top: 0;
+		}
+		.mt_btn_green {
+			background: none;
+			border: 1px solid $shamrock;
+			color: $shamrock;
+			margin-top: 25px;
+			&:hover {
+				background: $shamrock;
+				color: $white;
+			}
+		}
+	}
+	.mt_about_img {
+		text-align: center;
+		img {
+			max-width: 100%;
+			@media only screen and (min-width:768px) and (max-width: 991px) {
+				max-width: 55%;
+			}
+		}
+	}
+}
+
+/* =========================== */
+/*         End About           */
+/* =========================== */

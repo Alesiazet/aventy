@@ -1,0 +1,152 @@
+/* ====================== */
+/*         Footer         */
+/* ====================== */
+
+#mt_footer {
+	padding-top: 90px;
+	background-color: $mine-shaft;
+	h2 {
+	  color: #fff;
+	  margin-top: 0;
+	}
+	.col-md-4 {
+		@media only screen and (max-width: 991px) {
+			clear:both;
+		}
+	}
+	.follow_us {
+		@media only screen and (max-width: 991px) {
+			margin-bottom: 30px;
+		}
+		a {
+		  display: inline-block;
+		  margin-bottom: 30px;
+		}
+		p,h4 {
+			color: $white;
+		}
+		h4 {
+			margin-bottom: 5px;
+		}
+		.social_icons {
+			li {
+				display: inline-block;
+				line-height: 0;
+				margin-bottom: 0;
+				padding-left: 0;
+				padding-right: 15px;
+				&:before {
+				  display: none;
+				}
+				a {
+				  color: #fff;
+				  margin-bottom: 0;
+				  &:hover {
+				  	color: $shamrock;
+				  }
+				}
+			}
+		}
+	}
+	.mt_contact_ftr {
+		float: left;
+		width: 100%;
+		@media only screen and (max-width: 991px) {
+			margin-bottom: 30px;
+		}
+		li {
+		  padding-left: 0;
+		  width: 100%;
+		  float: left;
+		  &:before {
+		  	display: none;
+		  }
+		  	span {
+			  display: inline-block;
+			  float: left;
+			  margin-right: 0;
+			  font-size: 28px;
+			  color: $white;
+			}
+			a {
+			  display: inline-block;
+			  float: left;
+			  margin-left: 20px;
+			  width: 85%;
+			  color: $white;
+			  &:hover {
+			  	color: $shamrock;
+			  }
+			}
+		}
+	}
+	.mt_post_ftr {
+		clear: both;
+		li {
+		  	padding-left: 0;
+		  	@media only screen and (max-width: 991px) {
+				clear: both;
+			}
+		  	&:before {
+		  		display: none;
+		  	}
+		  	img {
+			  border-radius: 10px;
+			  float: left;
+			  margin-right: 15px;
+			  width: 20%;
+			  	@media only screen and (max-width: 991px) {
+					margin-bottom: 15px;
+					width: 10%;
+				}
+				@media only screen and (max-width: 480px) {
+					width: 25%;
+				}
+			}
+			h4 {
+			  font-size: 14px;
+			  line-height: 19px;
+			  margin-bottom: 3px;
+			  margin-top: 0;
+			  	a {
+				  color: $white;
+				}
+			}
+			p {
+			  color: $Gallery;
+			}
+		}
+	}
+	.mt_footer_copy {
+	  border-top: 1px solid;
+	  margin-top: 90px;
+	  padding-top: 22px;
+	  	.copy_txt {
+	  		p {
+			  color: #eceaea;
+				@media only screen and (max-width: 991px) {
+					text-align: center;
+				}
+			}
+	  	}
+	  	.made_txt {
+	  		p {
+			  color: #eceaea;
+			  text-align: right;
+			  	@media only screen and (max-width: 991px) {
+					text-align: center;
+				}
+			}
+			i {
+			  color: #e91e63;
+			  margin-left: 5px;
+			}
+	  	}
+	}
+}
+
+/* =========================== */
+/*         End Footer          */
+/* =========================== */
+
+
