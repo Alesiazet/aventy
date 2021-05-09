@@ -176,12 +176,13 @@ hr {
   border: 0.5px solid #444444; }
 
 p {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
   line-height: 24px;
   margin-bottom: 20px;
-  color: #444444; }
+  color: #444444;
+  }
 
 ul {
   margin: 0;
@@ -198,7 +199,7 @@ ul {
     ul li:before {
       content: '';
       position: absolute;
-      width: 14px;
+      width: 18px;
       height: 4px;
       background: #62D9E2;
       left: 0;
@@ -243,7 +244,7 @@ input[type=password],
 input[type=tel],
 textarea,
 select {
-  font-size: 14px;
+  font-size: 18px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   background-color: #fff;
@@ -275,7 +276,7 @@ img {
   max-width: 100%; }
 
 blockquote {
-  font-size: 14px;
+  font-size: 18px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   background-color: #FAF8F8;
@@ -381,7 +382,7 @@ input[type="submit"] {
     .mt_btn_grey,
     .mt_btn_green,
     input[type="submit"] {
-      font-size: 14px;
+      font-size: 24px;
       padding: 10px 19px; } }
   .mt_btn_grey:hover, .mt_btn_grey:focus,
   .mt_btn_green:hover,
@@ -416,10 +417,10 @@ input[type="submit"] {
   text-align: center;
   background: rgba(228, 25, 25, 0.75);
   color: #fff;
-  font-size: 14px; }
+  font-size: 18px; }
 
 .toast-message {
-  font-size: 14px; }
+  font-size: 18px; }
 
 /* ============================= */
 /*           Fancy Box           */
@@ -993,7 +994,16 @@ input[type="submit"] {
           -ms-transition: transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
           width: 99%; }
   #mt_portfolio .mt_filter li a.active {
-    border-bottom: 0.5px solid #62D9E2; }
+/*    border-bottom: 0.5px solid #62D9E2;
+*/      padding: 10px 30px;
+  background: #62D9E2;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  }
   #mt_portfolio .portfolio_row {
     margin-top: 30px; }
     #mt_portfolio .portfolio_row .hovereffect-portfolio {
@@ -1074,7 +1084,7 @@ input[type="submit"] {
               color: #FFFFFF; }
               @media only screen and (max-width: 480px) {
                 #mt_portfolio .portfolio_row .hovereffect-portfolio ul li a h4 {
-                  font-size: 14px;
+                  font-size: 18px;
                   line-height: 20px;
                   margin-bottom: 0; } }
             #mt_portfolio .portfolio_row .hovereffect-portfolio ul li a p {
@@ -1493,7 +1503,7 @@ input[type="submit"] {
         color: #ccc; }
       @media only screen and (max-width: 640px) {
         #mt_testimonial .testimonial_main p {
-          font-size: 14px;
+          font-size: 18px;
           line-height: 22px; } }
     #mt_testimonial .testimonial_main em {
       font-size: 16px;
@@ -1811,7 +1821,7 @@ input[type="submit"] {
           position: absolute; }
       #mt_pricing .main_pricing_conatiner .price .per_month {
         font-family: open sans;
-        font-size: 14px;
+        font-size: 18px;
         font-weight: 100;
         letter-spacing: 2px;
         text-transform: uppercase;
@@ -1997,7 +2007,7 @@ input[type="submit"] {
       margin-bottom: 10px; }
     #mt_contact .contact_info p {
       color: #FFFFFF;
-      font-size: 14px; }
+      font-size: 18px; }
     #mt_contact .contact_info a {
       color: #fff; }
     @media only screen and (max-width: 991px) {
@@ -2014,7 +2024,7 @@ input[type="submit"] {
         margin-bottom: 0;
         margin-top: 0; }
       #mt_contact .contact_info .mt_info a {
-        font-size: 14px;
+        font-size: 18px;
         text-decoration: none;
         width: 100%; }
       #mt_contact .contact_info .mt_info p {
@@ -2120,7 +2130,7 @@ input[type="submit"] {
           #mt_footer .mt_post_ftr li img {
             width: 25%; } }
       #mt_footer .mt_post_ftr li h4 {
-        font-size: 14px;
+        font-size: 18px;
         line-height: 19px;
         margin-bottom: 3px;
         margin-top: 0; }
@@ -2201,7 +2211,7 @@ input[type="submit"] {
       #portfolio_details .portfolio_description .portfolio_other_detail .mt_sidebar_tx {
         float: left;
         width: 100%;
-        font-size: 14px; }
+        font-size: 18px; }
         #portfolio_details .portfolio_description .portfolio_other_detail .mt_sidebar_tx span {
           margin-left: 5px; }
         @media only screen and (max-width: 991px) {
@@ -2209,7 +2219,7 @@ input[type="submit"] {
             width: 100%; } }
       #portfolio_details .portfolio_description .portfolio_other_detail p {
         margin-bottom: 11px;
-        font-size: 14px; }
+        font-size: 18px; }
       #portfolio_details .portfolio_description .portfolio_other_detail li {
         float: left;
         width: 100%;
@@ -2224,7 +2234,7 @@ input[type="submit"] {
       #portfolio_details .portfolio_description .portfolio_other_detail a {
         color: #818181;
         text-decoration: none;
-        font-size: 14px; }
+        font-size: 18px; }
         #portfolio_details .portfolio_description .portfolio_other_detail a:hover {
           text-decoration: underline; }
   #portfolio_details .project_gallery {
@@ -2367,7 +2377,7 @@ input[type="submit"] {
             font-weight: 300; } }
         @media only screen and (max-width: 360px) {
           #portfolio_details .portfolio_pagination .prev_post .prev_txt em {
-            font-size: 14px; } }
+            font-size: 18px; } }
       #portfolio_details .portfolio_pagination .prev_post .prev_txt p {
         font-size: 13px;
         line-height: 19px; }
@@ -2418,7 +2428,7 @@ input[type="submit"] {
             font-weight: 300; } }
         @media only screen and (max-width: 360px) {
           #portfolio_details .portfolio_pagination .next .nxt_txt em {
-            font-size: 14px; } }
+            font-size: 84px; } }
       #portfolio_details .portfolio_pagination .next .nxt_txt p {
         font-size: 13px;
         line-height: 19px; }
@@ -2465,7 +2475,7 @@ input[type="submit"] {
       font-size: 18px; } }
 @media only screen and (max-width: 480px) {
   #blog_main_sec .post_title ul li {
-    font-size: 14px;
+    font-size: 18px;
     margin-bottom: 0; } }
 #blog_main_sec .post_title ul li:before {
   display: none; }
@@ -2544,7 +2554,7 @@ input[type="submit"] {
       margin-top: 3px;
       text-transform: capitalize; }
     #blog_main_sec #comments .comments-lists .comment p {
-      font-size: 14px;
+      font-size: 18px;
       color: #777777;
       line-height: 24px; }
     #blog_main_sec #comments .comments-lists .comment small.date-posted {
@@ -2664,10 +2674,10 @@ aside .widget_recent_entries ul {
           transition: all ease 0.4s; }
     aside .widget_recent_entries ul li span {
       color: #666666;
-      font-size: 14px; }
+      font-size: 18px; }
     aside .widget_recent_entries ul li p {
       color: #666666;
-      font-size: 14px; }
+      font-size: 18px; }
     aside .widget_recent_entries ul li img {
       position: absolute;
       top: 2px;
@@ -2686,7 +2696,7 @@ aside .widget_tag_cloud ul {
     margin-bottom: 4px; }
     aside .widget_tag_cloud ul li a {
       background-color: #FAF8F8;
-      font-size: 14px;
+      font-size: 18px;
       text-transform: capitalize;
       text-decoration: none;
       color: #444444;
